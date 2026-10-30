@@ -1,0 +1,13 @@
+CC = gcc
+CFLAGS = -Wall -Wextra
+
+SOURCES = main.c sample.c
+TARGETS = $(SOURCES:.c=.exe)
+
+all: $(TARGETS)
+
+.c.exe:
+	$(CC) $(CFLAGS) $< -o $@
+
+clean:
+	del /Q $(TARGETS)
