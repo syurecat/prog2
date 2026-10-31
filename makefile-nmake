@@ -1,8 +1,0 @@
-CC = gcc
-CFLAGS = -Wall -Wextra
-
-all:
-	@for %%F in (*.c) do $(CC) $(CFLAGS) "%%F" -o "%%~nF.exe"
-
-clean:
-	-del /Q *.exe 2>NUL
