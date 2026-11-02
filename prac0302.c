@@ -1,8 +1,10 @@
 
 #include <stdio.h>
+#include "console_utf8.h"
 
 int main(void)
 {
+	console_use_utf8();
 	int no;
 
 	printf("整数を入力せよ：");
