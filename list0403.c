@@ -1,7 +1,9 @@
 ﻿#include <stdio.h>
+#include "console_utf8.h"
 
 int main(void)
 {
+	console_use_utf8();
 	int sum = 0;
 	int cnt = 0;
 	int retry;
