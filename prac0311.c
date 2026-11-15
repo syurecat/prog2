@@ -10,7 +10,7 @@ int main(void)
 	printf("整数A：");   scanf("%d", &a);
 	printf("整数B：");   scanf("%d", &b);
 
-    int result = a - b
+    int result = a - b;
     if(result < 0)
         result = -result;
     if(result > 11){
