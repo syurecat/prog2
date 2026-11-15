@@ -10,9 +10,10 @@ int main(void)
 	scanf("%d", &no);
 
 	int i = 1;
-	while (i <= no)
+	while (i <= no){
 		printf("%d ", i++);
 		printf("\n");
+	}
 
 	return 0;
 }
